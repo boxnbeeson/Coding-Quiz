@@ -1,0 +1,15 @@
+.body {
+    background-color: #a7cbd5;
+}
+
+.quiz {
+    float: left;
+    color: #362c36;;
+    padding-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.question {
+    padding-bottom: 20px;
+}
