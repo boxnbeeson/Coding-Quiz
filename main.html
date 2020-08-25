@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coding Quiz!</title>
   <link rel="stylesheet" href="assets/style.css">
-  <script src="assets/script2.js" defer></script>
+  <script src="assets/script.js" defer></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -22,16 +22,15 @@
 
 <body class="body text-center">
   <nav class="navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1"> Language Coding Quiz</span>
+    <span class="navbar-brand mb-0 h1">Language Coding Quiz</span>
   </nav>
-  
+
   <div class="card-container">
 
     <div class="card text-center" style="width: 25rem;">
       <div class="card-body">
         <p class="card-text">
-        <h5>This quiz is designed for those that have just begun coding. It is a short quiz, and you will be timed! Try
-          to complete it quickly without making any mistakes, and get your name on the highscores!</h5>
+        <h5>This quiz is designed for those that have just begun coding. It is a short quiz, and you will be timed! Try to complete it quickly without making any mistakes, and get your name on the highscores!</h5>
         </p>
         <button class="btn btn-secondary" id="start-button">Begin!</button>
       </div>
@@ -40,13 +39,13 @@
   <div class="card text-center" style="width: 25rem;">
     <div class="card-body">
       <p class="card-text">
-      <h5>  <p id="timerDisplay"></p> </h5>
+      <h5>
+        <div id="status"></div>
+        <p id="timer"></p>
+      </h5>
       </p>
     </div>
   </div>
-
-
-
 </body>
 
 <footer class="footer text-center">
