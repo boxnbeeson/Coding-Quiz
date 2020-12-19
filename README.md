@@ -1,7 +1,7 @@
 # Coding Quiz
   Interactive Coding Quiz created for a Bootcamp project using HTML, CSS, JS, Bootstrap, and JSON for local storage. The quiz utilizes a timer for score. Incorrect answers substract 15 points from the timer. Upon completing the last question, the timer stops.
   <br>
-  https://jpbeeson.github.io/CodingQuiz/
+  https://jpbeeson.github.io/Coding-Quiz/
 
   ## Table of Contents
   * [Demo](#demo)
